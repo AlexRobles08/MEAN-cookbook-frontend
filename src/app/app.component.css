@@ -1,0 +1,11 @@
+header {
+  margin: 0px 1rem;
+}
+
+main {
+  background-color: #f6f6f6;
+  min-height: calc(100vh-16px);
+}
+
+.container {
+}

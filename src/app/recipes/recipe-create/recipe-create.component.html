@@ -1,0 +1,20 @@
+<form #recipeForm="ngForm">
+  <mat-form-field>
+    <input
+      matInput
+      type="text"
+      name="recipe-title"
+      ngModel
+      #recipeTitle="ngModel"
+    />
+  </mat-form-field>
+  <mat-form-field>
+    <textarea
+      name="recipe-description"
+      id=""
+      rows="4"
+      ngModel
+      #recipeDescription
+    ></textarea>
+  </mat-form-field>
+</form>

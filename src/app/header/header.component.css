@@ -1,0 +1,16 @@
+mat-toolbar {
+  background-color: #545454;
+  color: white;
+}
+
+li {
+  display: inline-block;
+}
+
+span.spacer {
+  flex: 1 1 auto;
+}
+
+:host {
+  margin-bottom: 1rem;
+}
